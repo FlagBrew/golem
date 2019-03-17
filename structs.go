@@ -845,16 +845,15 @@ type pokemonStat struct {
 }
 
 type pokemonSprites struct {
-	FrontDefault     string `json:"front_default" mapstructure:"front_default"`
-	FrontShiny       string `json:"front_shiny" mapstructure:"front_shiny"`
-	FrontFemale      string `json:"front_female" mapstructure:"front_female"`
-	FrontShinyFemale string `json:"front_shiny_female" mapstructure:"front_shiny_female"`
-	BackDefault      string `json:"back_default" mapstructure:"back_default"`
-	BackShiny        string `json:"back_shiny" mapstructure:"back_shiny"`
-	BackFemale       string `json:"back_female" mapstructure:"back_female"`
-	BackShinyFemale  string `json:"back_shiny_female" mapstructure:"back_shiny_female"`
-	// TODO GetSprites
-	GetSprites []func() string `json:"-" mapstructure:"-"`
+	FrontDefault     string          `json:"front_default" mapstructure:"front_default"`
+	FrontShiny       string          `json:"front_shiny" mapstructure:"front_shiny"`
+	FrontFemale      string          `json:"front_female" mapstructure:"front_female"`
+	FrontShinyFemale string          `json:"front_shiny_female" mapstructure:"front_shiny_female"`
+	BackDefault      string          `json:"back_default" mapstructure:"back_default"`
+	BackShiny        string          `json:"back_shiny" mapstructure:"back_shiny"`
+	BackFemale       string          `json:"back_female" mapstructure:"back_female"`
+	BackShinyFemale  string          `json:"back_shiny_female" mapstructure:"back_shiny_female"`
+	GetSprites       []func() string `json:"-" mapstructure:"-"`
 }
 
 // PokemonColor ...
@@ -890,12 +889,11 @@ type PokemonForm struct {
 }
 
 type pokemonFormSprites struct {
-	FrontDefault string `json:"front_default" mapstructure:"front_default"`
-	FrontShiny   string `json:"front_shiny" mapstructure:"front_shiny"`
-	BackDefault  string `json:"back_default" mapstructure:"back_default"`
-	BackShiny    string `json:"back_shiny" mapstructure:"back_shiny"`
-	// TODO GetSprites
-	GetSprites []func() string `json:"-" mapstructure:"-"`
+	FrontDefault string          `json:"front_default" mapstructure:"front_default"`
+	FrontShiny   string          `json:"front_shiny" mapstructure:"front_shiny"`
+	BackDefault  string          `json:"back_default" mapstructure:"back_default"`
+	BackShiny    string          `json:"back_shiny" mapstructure:"back_shiny"`
+	GetSprites   []func() string `json:"-" mapstructure:"-"`
 }
 
 // PokemonHabitat ...

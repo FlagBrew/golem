@@ -1,5 +1,6 @@
 # Golem
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/FlagBrew/golem)](https://goreportcard.com/report/github.com/FlagBrew/golem)
+[![GoDoc](https://godoc.org/github.com/FlagBrew/golem?status.png)](https://godoc.org/github.com/FlagBrew/golem)
 Golem is an API wrapper library for the [PokeApi](https://pokeapi.co/) V2 API, built in Golang
 
 
