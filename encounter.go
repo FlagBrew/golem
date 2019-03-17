@@ -1,4 +1,4 @@
-package pokeapigo
+package golem
 
 import "github.com/mitchellh/mapstructure"
 

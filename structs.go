@@ -1,4 +1,4 @@
-package pokeapigo
+package golem
 
 // Berries Section
 // https://pokeapi.co/docs/v2.html/#berries-section

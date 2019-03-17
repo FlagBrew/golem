@@ -1,4 +1,4 @@
-package pokeapigo
+package golem
 
 // Closures class is used for getting data from namedAPIResources
 
