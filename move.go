@@ -18,7 +18,7 @@ func GetMove(query string) Move {
 		}
 	}
 	move.GetContestType = getContestType(move.ContestType.Name)
-	move.GetContestEffect = getContestEffect(getID(move.ContestEffect.URL))
+	//move.GetContestEffect = getContestEffect(getID(move.ContestEffect.URL)) Fix later
 	move.GetDamageClass = getMoveDamageClass(move.DamageClass.Name)
 	move.GetGeneration = getGeneration(move.Generation.Name)
 	move.GetSuperContestEffect = getSuperContestEffect(getID(move.SuperContestEffect.URL))
